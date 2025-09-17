@@ -1,0 +1,4 @@
+sistem klasifikasi citra berbasis CNN menggunakan TensorFlow/Keras yang dilatih dengan dataset gambar berlabel, 
+kemudian diintegrasikan dengan OpenCV untuk melakukan prediksi secara real-time dari kamera. Prosesnya mencakup augmentasi data agar model lebih robust,
+arsitektur CNN sederhana dengan dua lapisan konvolusi dan pooling, serta regularisasi melalui dropout. Setelah model dilatih dan disimpan, 
+sistem dapat membaca frame dari webcam, melakukan preprocessing, memprediksi kelas, dan menampilkan hasilnya di layar sekaligus menyediakan mode visual tambahan berupa "Night Vision"
